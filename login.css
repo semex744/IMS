@@ -1,0 +1,80 @@
+body#loginbody {
+  background-image: url("../image/images.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.body {
+  font-family: sans-serif;
+}
+
+.loginheader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.loginheader h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding: 0;
+  color: #f685a2;
+  margin: 0;
+}
+
+.loginheader p {
+  color: #ffdae3;
+  font-size: 50px;
+  border-bottom: 5px solid #f685a2;
+  display: inline-block;
+}
+
+.loginheader p::after {
+  content: " ";
+  display: block;
+  height: 5px;
+  background: #f685a2;
+  margin: 0 auto;
+}
+
+.loginbody form {
+  margin: 0 auto;
+  width: 450px;
+  background: rgba(0.5);
+  padding: 50px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.loginput {
+  margin-top: 20px;
+}
+
+.loginput label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.loginput input {
+  height: 30px;
+  width: 100%;
+  border: 2px solid #d40339;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.loginbtn {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.loginbtn button {
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #f685a2;
+}
